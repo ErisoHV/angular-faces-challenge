@@ -1,0 +1,8 @@
+<div id="face-container">
+  <img id="face"  src="{{myFace}}" [style.border-radius]="dynamicBR">
+</div>
+<div id="range-container">
+  <input id="border-radius-control" value="0" type="range" min="0" 
+      max="440" (change)="changeBorder($event)"><br>
+  <label>Border radius: </label>
+</div>
