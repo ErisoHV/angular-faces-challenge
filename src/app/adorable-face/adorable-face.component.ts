@@ -26,9 +26,7 @@ export class AdorableFaceComponent implements OnInit {
   }
 
   changeBorder(event){
-    console.log(event.srcElement.value);
     this.dynamicBR = event.srcElement.value + "px"
-    console.log(this.dynamicBR);
   }
 
 }
