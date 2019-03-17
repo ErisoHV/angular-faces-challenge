@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0.
 
-You can see the working application at: <a href="https://erisohv.github.io/angular-faces-challenge/" target="_parent">Angular faces</a>
+You can see the working application at: <a href="https://erisohv.github.io/angular-faces-challenge/" target="_blank">Angular faces</a>
 
 ## Development server
 
