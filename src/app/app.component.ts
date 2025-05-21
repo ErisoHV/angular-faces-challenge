@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {AdorableFaceComponent} from './adorable-face/adorable-face.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [
+    AdorableFaceComponent
+  ],
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-faces-challenge-modern';
+  title = 'faces-challenge';
 }

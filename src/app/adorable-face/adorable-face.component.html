@@ -1,0 +1,19 @@
+<div id="face-container">
+  <img id="face" ngSrc="{{myFace}}}" [style.border-radius]="dynamicBR"
+       alt="Your avatar" width="450" height="450">
+</div>
+
+<div class="select-wrapper">
+  <label>Style:</label><br>
+  <select id="style-select" [(ngModel)]="style" (change)="generateAdorableFace()">
+    <option value="lorelei">Lorelei</option>
+    <option value="adventurer">Adventurer</option>
+    <option value="pixel-art">Pixel</option>
+  </select>
+</div>
+
+<div class="button-wrapper">
+  <a href="#" class="my-button" (click)="generateAdorableFace()">Change that face!</a>
+</div>
+
+
